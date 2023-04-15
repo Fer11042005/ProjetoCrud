@@ -1,0 +1,18 @@
+create database cadastrocarros;
+use cadastrocarros;
+
+create table montadoras(
+codigo int not null auto_increment,
+nome enum('Volkswagem', 'Ford', 'Fiat','Chevrolet'),
+primary key (codigo)
+);
+
+create table automoveis(
+codigo int not null auto_increment,
+nome varchar(100),
+placa char(7),
+chassi char(17),
+montadora varchar(20),
+primary key(codigo)
+);
+
