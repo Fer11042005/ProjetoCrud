@@ -14,7 +14,6 @@
                 montadora: <input type="text" name="montadora"/><br><br>
                 <input type="submit" value="Salvar"/>
             </label>
-            </select>
         </form>
         <a href="listaautomoveis.php">Lista de automoveis</a>
     </body>
